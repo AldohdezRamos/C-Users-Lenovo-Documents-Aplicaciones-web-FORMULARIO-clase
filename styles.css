@@ -1,8 +1,11 @@
 body {
-  background-image: url (imagenes/fon);
+  background-image: url("imagenes/fondo.jpeg");
   background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat; 
   height: 100vh; 
   margin: 0; 
+}
+form{
+  background-color: aliceblue;
 }
