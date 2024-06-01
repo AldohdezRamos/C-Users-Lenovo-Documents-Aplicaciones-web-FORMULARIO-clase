@@ -1,5 +1,5 @@
 body {
-  background-image: url("imagenes/fondo.jpeg");
+  background-image: url("imagenes/fondo\ 222.jpg");
   background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat; 
@@ -7,5 +7,27 @@ body {
   margin: 0; 
 }
 form{
-  background-color: aliceblue;
+  background-color: rgb(217, 225, 233);
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+input[type="text"].uppercase {
+  text-transform: uppercase;
 }
